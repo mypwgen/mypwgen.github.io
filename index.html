@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Password Generator | Create Strong Random Passwords</title>
+    <meta name="description"
+        content="Generate secure, random, and strong passwords instantly with our Minimal Password Generator. Protect your accounts with customizable length and characters.">
+    <meta name="keywords"
+        content="password generator, secure passwords, random password tool, strong password creator, online security">
+    <link rel="icon" type="image/png" href="https://i.postimg.cc/0N04779B/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="ad-space">
+        <span>[ Ad Space ]</span>
+    </div>
+
+    <main class="container">
+        <header>
+            <h1>Generate Password</h1>
+            <p>Create secure, random passwords instantly.</p>
+        </header>
+
+        <div class="result-box">
+            <span id="result">Click generate</span>
+            <button id="clipboard" title="Copy to clipboard" class="icon-btn">
+                <i class="far fa-copy"></i>
+            </button>
+        </div>
+
+        <div class="controls">
+            <div class="length-control">
+                <div class="length-header">
+                    <label>Length</label>
+                    <span id="length-val" class="value-badge">16</span>
+                </div>
+                <input type="range" id="length" min="8" max="100" value="16">
+            </div>
+
+            <div class="options">
+                <label class="toggle-row">
+                    <span>Uppercase (A-Z)</span>
+                    <input type="checkbox" id="uppercase" checked>
+                    <div class="toggle-bg"></div>
+                </label>
+                <label class="toggle-row">
+                    <span>Lowercase (a-z)</span>
+                    <input type="checkbox" id="lowercase" checked>
+                    <div class="toggle-bg"></div>
+                </label>
+                <label class="toggle-row">
+                    <span>Numbers (0-9)</span>
+                    <input type="checkbox" id="numbers" checked>
+                    <div class="toggle-bg"></div>
+                </label>
+                <label class="toggle-row">
+                    <span>Symbols (!@#)</span>
+                    <input type="checkbox" id="symbols" checked>
+                    <div class="toggle-bg"></div>
+                </label>
+            </div>
+        </div>
+
+        <button id="generate" class="generate-btn">Generate Password</button>
+    </main>
+
+    <div class="ad-space main-ad">
+        <span>[ Advertisement Space ]</span>
+    </div>
+
+    <section class="info-section">
+        <div class="content-wrapper">
+            <h2>Why Use a Secure Password Generator?</h2>
+            <div class="info-grid">
+                <div class="info-card">
+                    <i class="fas fa-shield-alt"></i>
+                    <h3>Ultimate Protection</h3>
+                    <p>Randomly generated passwords are nearly impossible to guess or crack using brute-force methods.
+                    </p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-lock"></i>
+                    <h3>No Patterns</h3>
+                    <p>Humans tend to use predictable patterns. Our tool ensures true randomness for maximum safety.</p>
+                </div>
+                <div class="info-card">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Instant & Free</h3>
+                    <p>Create complex passwords for all your social media, banking, and professional accounts in
+                        seconds.</p>
+                </div>
+            </div>
+
+            <div class="seo-text">
+                <h3>Stay Safe Online</h3>
+                <p>Security experts recommend using unique passwords for every service. By combining uppercase letters,
+                    numbers, and symbols, you increase the complexity of your digital key, making it exponentially
+                    harder for cybercriminals to gain access to your private data.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="support-section">
+        <div class="content-wrapper">
+            <h3>Support this project</h3>
+            <p>If you find this tool useful, consider supporting its development. It helps keep the service free and
+                updated!</p>
+            <a href="#" class="support-btn"><i class="fas fa-coffee"></i> Buy me a coffee</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="content-wrapper">
+            <p>&copy; 2024 Secure Password Generator. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="privacy.html">Privacy Policy</a>
+                <a href="terms.html">Terms of Use</a>
+            </div>
+        </div>
+    </footer>
+
+    <div id="toast" class="toast">Copied to clipboard</div>
+    <script src="script.js"></script>
+</body>
+
+</html>
