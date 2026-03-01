@@ -342,31 +342,6 @@ input[type="range"]:active::-webkit-slider-thumb {
     text-transform: uppercase;
 }
 
-.support-section {
-    width: 100%;
-    padding: 60px 20px;
-    background: #000;
-    border-top: 1px solid var(--border);
-}
-
-.support-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    background: #fff;
-    color: #000;
-    padding: 12px 24px;
-    border-radius: 50px;
-    text-decoration: none;
-    font-weight: 600;
-    margin-top: 20px;
-    transition: transform 0.2s;
-}
-
-.support-btn:hover {
-    transform: scale(1.05);
-}
-
 footer {
     width: 100%;
     padding: 40px 20px;
