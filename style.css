@@ -27,20 +27,6 @@ body {
     overflow-x: hidden;
 }
 
-.ad-space {
-    width: 90%;
-    max-width: 400px;
-    height: 60px;
-    border: 1px dashed var(--border);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--text-secondary);
-    font-size: 0.8rem;
-    margin: 40px 0 20px 0;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.02);
-}
 
 .container {
     width: 90%;
@@ -394,22 +380,6 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 
 /* --- Ad Space Premium Styling --- */
-.ad-space.main-ad {
-    width: 90%;
-    margin: 60px auto;
-    max-width: 728px;
-    height: 90px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: rgba(255, 255, 255, 0.01);
-    border: 1px dashed var(--border);
-    border-radius: 12px;
-    color: #333;
-    font-size: 0.7rem;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-}
 
 footer {
     width: 100%;
@@ -490,10 +460,6 @@ footer {
         padding: 25px 20px;
     }
 
-    .ad-space.main-ad {
-        width: 95%;
-        margin: 30px auto;
-    }
 }
 
 @media screen and (max-width: 480px) {
